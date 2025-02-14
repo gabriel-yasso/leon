@@ -18,6 +18,11 @@ html {
 }
 body {
     font-family: 'Work Sans', sans-serif;
+   /* these next 4 lines are for when everything is removed except the header and the footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 
 .container {
